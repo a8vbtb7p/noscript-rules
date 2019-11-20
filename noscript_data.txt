@@ -1,0 +1,307 @@
+{
+  "policy": {
+    "DEFAULT": {
+      "capabilities": [
+        "frame",
+        "fetch",
+        "other",
+        "font",
+        "webgl",
+        "media",
+        "object"
+      ],
+      "temp": false
+    },
+    "TRUSTED": {
+      "capabilities": [
+        "script",
+        "object",
+        "media",
+        "frame",
+        "font",
+        "webgl",
+        "fetch",
+        "other"
+      ],
+      "temp": false
+    },
+    "UNTRUSTED": {
+      "capabilities": [],
+      "temp": false
+    },
+    "sites": {
+      "trusted": [
+        "§:addons.mozilla.org",
+        "§:afx.ms",
+        "§:bootstrapcdn.com",
+        "§:firstdata.com",
+        "§:firstdata.lv",
+        "§:gfx.ms",
+        "§:google.com",
+        "§:googlevideo.com",
+        "§:gstatic.com",
+        "§:hotmail.com",
+        "§:live.com",
+        "§:live.net",
+        "§:maps.googleapis.com",
+        "§:mozilla.net",
+        "§:netflix.com",
+        "§:nflxext.com",
+        "§:nflximg.com",
+        "§:nflxvideo.net",
+        "§:noscript.net",
+        "§:outlook.com",
+        "§:passport.com",
+        "§:passport.net",
+        "§:passportimages.com",
+        "§:paypal.com",
+        "§:paypalobjects.com",
+        "§:securecode.com",
+        "§:securesuite.net",
+        "§:sfx.ms",
+        "§:tinymce.cachefly.net",
+        "§:wlxrs.com",
+        "§:yahoo.com",
+        "§:yahooapis.com",
+        "§:yimg.com",
+        "§:youtube.com",
+        "§:ytimg.com",
+        "§:redditstatic.com",
+        "§:funcaptcha.com",
+        "§:githubassets.com",
+        "§:octocaptcha.com",
+        "§:arkoselabs.com"
+      ],
+      "untrusted": [],
+      "custom": {
+        "§:ajax.googleapis.com": {
+          "capabilities": [
+            "script",
+            "object",
+            "media",
+            "frame",
+            "font",
+            "webgl",
+            "fetch",
+            "other"
+          ],
+          "temp": false
+        },
+        "§:akamaihd.net": {
+          "capabilities": [
+            "script",
+            "object",
+            "media",
+            "frame",
+            "font",
+            "webgl",
+            "fetch",
+            "other"
+          ],
+          "temp": false
+        },
+        "§:ajax.aspnetcdn.com": {
+          "capabilities": [
+            "script",
+            "object",
+            "media",
+            "frame",
+            "font",
+            "webgl",
+            "fetch",
+            "other"
+          ],
+          "temp": false
+        },
+        "§:apps.bdimg.com": {
+          "capabilities": [
+            "script",
+            "object",
+            "media",
+            "frame",
+            "font",
+            "webgl",
+            "fetch",
+            "other"
+          ],
+          "temp": false
+        },
+        "§:cdn.bootcss.com": {
+          "capabilities": [
+            "script",
+            "object",
+            "media",
+            "frame",
+            "font",
+            "webgl",
+            "fetch",
+            "other"
+          ],
+          "temp": false
+        },
+        "§:maxcdn.bootstrapcdn.com": {
+          "capabilities": [
+            "script",
+            "object",
+            "media",
+            "frame",
+            "font",
+            "webgl",
+            "fetch",
+            "other"
+          ],
+          "temp": false
+        },
+        "§:ajax.cloudflare.com": {
+          "capabilities": [
+            "script",
+            "object",
+            "media",
+            "frame",
+            "font",
+            "webgl",
+            "fetch",
+            "other"
+          ],
+          "temp": false
+        },
+        "§:cloudfront.net": {
+          "capabilities": [
+            "script",
+            "object",
+            "media",
+            "frame",
+            "font",
+            "webgl",
+            "fetch",
+            "other"
+          ],
+          "temp": false
+        },
+        "§:cdnjs.cloudflare.com": {
+          "capabilities": [
+            "script",
+            "object",
+            "media",
+            "frame",
+            "font",
+            "webgl",
+            "fetch",
+            "other"
+          ],
+          "temp": false
+        },
+        "§:ssl.fastly.net": {
+          "capabilities": [
+            "script",
+            "object",
+            "media",
+            "frame",
+            "font",
+            "webgl",
+            "fetch",
+            "other"
+          ],
+          "temp": false
+        },
+        "§:a.fsdn.com": {
+          "capabilities": [
+            "script",
+            "object",
+            "media",
+            "frame",
+            "font",
+            "webgl",
+            "fetch",
+            "other"
+          ],
+          "temp": false
+        },
+        "§:code.jquery.com": {
+          "capabilities": [
+            "script",
+            "object",
+            "media",
+            "frame",
+            "font",
+            "webgl",
+            "fetch",
+            "other"
+          ],
+          "temp": false
+        },
+        "§:cdn.jsdelivr.net": {
+          "capabilities": [
+            "script",
+            "object",
+            "media",
+            "frame",
+            "font",
+            "webgl",
+            "fetch",
+            "other"
+          ],
+          "temp": false
+        },
+        "§:s3.amazonaws.com": {
+          "capabilities": [
+            "script",
+            "object",
+            "media",
+            "frame",
+            "font",
+            "webgl",
+            "fetch",
+            "other"
+          ],
+          "temp": false
+        },
+        "§:cdn.staticfile.org": {
+          "capabilities": [
+            "script",
+            "object",
+            "media",
+            "frame",
+            "font",
+            "webgl",
+            "fetch",
+            "other"
+          ],
+          "temp": false
+        },
+        "§:unpkg.com": {
+          "capabilities": [
+            "script",
+            "object",
+            "media",
+            "frame",
+            "font",
+            "webgl",
+            "fetch",
+            "other"
+          ],
+          "temp": false
+        }
+      }
+    },
+    "enforced": true,
+    "autoAllowTop": true
+  },
+  "local": {
+    "debug": true,
+    "showCtxMenuItem": true,
+    "showCountBadge": true,
+    "showFullAddresses": false,
+    "storage": "local",
+    "uuid": "784f8e94-eec8-4c2c-a23d-779804d097cc"
+  },
+  "sync": {
+    "global": false,
+    "xss": true,
+    "cascadeRestrictions": false,
+    "overrideTorBrowserPolicy": false,
+    "clearclick": true,
+    "storage": "sync"
+  },
+  "xssUserChoices": {}
+}
