@@ -72,23 +72,20 @@
       "§:arkoselabs.com",
       "§:twimg.com",
       "§:twitchcdn.net",
-      "§:twitchsvc.net"
+      "§:twitchsvc.net",
+      "§:amazon.com",
+      "§:ssl-images-amazon.com",
+      "§:amazon.de",
+      "§:media-amazon.com",
+      "§:amazon.co.uk",
+      "§:ajax.googleapis.com",
+      "§:maxcdn.bootstrapcdn.com",
+      "§:cdnjs.cloudflare.com",
+      "§:code.jquery.com",
+      "§:edgecastcdn.net"
     ],
     "untrusted": [],
     "custom": {
-      "§:ajax.googleapis.com": {
-        "capabilities": [
-          "script",
-          "object",
-          "media",
-          "frame",
-          "font",
-          "webgl",
-          "fetch",
-          "other"
-        ],
-        "temp": false
-      },
       "§:akamaihd.net": {
         "capabilities": [
           "script",
@@ -141,19 +138,6 @@
         ],
         "temp": false
       },
-      "§:maxcdn.bootstrapcdn.com": {
-        "capabilities": [
-          "script",
-          "object",
-          "media",
-          "frame",
-          "font",
-          "webgl",
-          "fetch",
-          "other"
-        ],
-        "temp": false
-      },
       "§:ajax.cloudflare.com": {
         "capabilities": [
           "script",
@@ -180,19 +164,6 @@
         ],
         "temp": false
       },
-      "§:cdnjs.cloudflare.com": {
-        "capabilities": [
-          "script",
-          "object",
-          "media",
-          "frame",
-          "font",
-          "webgl",
-          "fetch",
-          "other"
-        ],
-        "temp": false
-      },
       "§:ssl.fastly.net": {
         "capabilities": [
           "script",
@@ -207,19 +178,6 @@
         "temp": false
       },
       "§:a.fsdn.com": {
-        "capabilities": [
-          "script",
-          "object",
-          "media",
-          "frame",
-          "font",
-          "webgl",
-          "fetch",
-          "other"
-        ],
-        "temp": false
-      },
-      "§:code.jquery.com": {
         "capabilities": [
           "script",
           "object",
@@ -286,11 +244,11 @@
       }
     },
     "temp": [
-      "§:github.com",
-      "http://twitch.tv",
-      "§:twitch.tv",
-      "http://127.0.0.1:8888",
-      "§:leagueoflegends.com"
+      "§:op.gg",
+      "http://0.0.0.0:3000",
+      "http://riot.im",
+      "§:riot.im",
+      "§:github.com"
     ]
   },
   "enforced": true,
