@@ -1,255 +1,60 @@
 {
   "DEFAULT": {
     "capabilities": [
-      "frame",
       "fetch",
-      "other",
       "font",
-      "webgl",
+      "frame",
       "media",
-      "object"
+      "object",
+      "other",
+      "script",
+      "webgl"
     ],
     "temp": false
   },
   "TRUSTED": {
     "capabilities": [
-      "script",
-      "object",
-      "media",
-      "frame",
-      "font",
-      "webgl",
       "fetch",
-      "other"
+      "font",
+      "frame",
+      "media",
+      "object",
+      "other",
+      "script",
+      "webgl"
     ],
     "temp": false
   },
   "UNTRUSTED": {
-    "capabilities": [],
+    "capabilities": [
+      "font",
+      "frame",
+      "media"
+    ],
     "temp": false
   },
   "sites": {
     "trusted": [
-      "§:addons.mozilla.org",
-      "§:afx.ms",
-      "§:bootstrapcdn.com",
-      "§:firstdata.com",
-      "§:firstdata.lv",
-      "§:gfx.ms",
-      "§:google.com",
-      "§:googlevideo.com",
-      "§:gstatic.com",
-      "§:hotmail.com",
-      "§:live.com",
-      "§:live.net",
-      "§:maps.googleapis.com",
-      "§:mozilla.net",
-      "§:netflix.com",
-      "§:nflxext.com",
-      "§:nflximg.com",
-      "§:nflxvideo.net",
-      "§:noscript.net",
-      "§:outlook.com",
-      "§:passport.com",
-      "§:passport.net",
-      "§:passportimages.com",
-      "§:paypal.com",
-      "§:paypalobjects.com",
-      "§:securecode.com",
-      "§:securesuite.net",
-      "§:sfx.ms",
-      "§:tinymce.cachefly.net",
-      "§:wlxrs.com",
-      "§:yahoo.com",
-      "§:yahooapis.com",
-      "§:yimg.com",
-      "§:youtube.com",
-      "§:ytimg.com",
-      "§:redditstatic.com",
-      "§:funcaptcha.com",
-      "§:githubassets.com",
-      "§:octocaptcha.com",
-      "§:arkoselabs.com",
-      "§:twimg.com",
-      "§:twitchcdn.net",
-      "§:twitchsvc.net",
-      "§:amazon.com",
-      "§:ssl-images-amazon.com",
-      "§:amazon.de",
-      "§:media-amazon.com",
-      "§:amazon.co.uk",
+      "§:ajax.aspnetcdn.com",
+      "§:a.fsdn.com",
       "§:ajax.googleapis.com",
+      "§:akamaihd.net",
+      "§:apps.bdimg.com",
+      "§:cdn.bootcss.com",
       "§:maxcdn.bootstrapcdn.com",
+      "§:ajax.cloudflare.com",
       "§:cdnjs.cloudflare.com",
+      "§:cloudfront.net",
+      "§:ssl.fastly.net",
       "§:code.jquery.com",
-      "§:edgecastcdn.net"
+      "§:cdn.jsdelivr.net",
+      "§:s3.amazonaws.com",
+      "§:cdn.staticfile.org",
+      "§:unpkg.com"
     ],
     "untrusted": [],
-    "custom": {
-      "§:akamaihd.net": {
-        "capabilities": [
-          "script",
-          "object",
-          "media",
-          "frame",
-          "font",
-          "webgl",
-          "fetch",
-          "other"
-        ],
-        "temp": false
-      },
-      "§:ajax.aspnetcdn.com": {
-        "capabilities": [
-          "script",
-          "object",
-          "media",
-          "frame",
-          "font",
-          "webgl",
-          "fetch",
-          "other"
-        ],
-        "temp": false
-      },
-      "§:apps.bdimg.com": {
-        "capabilities": [
-          "script",
-          "object",
-          "media",
-          "frame",
-          "font",
-          "webgl",
-          "fetch",
-          "other"
-        ],
-        "temp": false
-      },
-      "§:cdn.bootcss.com": {
-        "capabilities": [
-          "script",
-          "object",
-          "media",
-          "frame",
-          "font",
-          "webgl",
-          "fetch",
-          "other"
-        ],
-        "temp": false
-      },
-      "§:ajax.cloudflare.com": {
-        "capabilities": [
-          "script",
-          "object",
-          "media",
-          "frame",
-          "font",
-          "webgl",
-          "fetch",
-          "other"
-        ],
-        "temp": false
-      },
-      "§:cloudfront.net": {
-        "capabilities": [
-          "script",
-          "object",
-          "media",
-          "frame",
-          "font",
-          "webgl",
-          "fetch",
-          "other"
-        ],
-        "temp": false
-      },
-      "§:ssl.fastly.net": {
-        "capabilities": [
-          "script",
-          "object",
-          "media",
-          "frame",
-          "font",
-          "webgl",
-          "fetch",
-          "other"
-        ],
-        "temp": false
-      },
-      "§:a.fsdn.com": {
-        "capabilities": [
-          "script",
-          "object",
-          "media",
-          "frame",
-          "font",
-          "webgl",
-          "fetch",
-          "other"
-        ],
-        "temp": false
-      },
-      "§:cdn.jsdelivr.net": {
-        "capabilities": [
-          "script",
-          "object",
-          "media",
-          "frame",
-          "font",
-          "webgl",
-          "fetch",
-          "other"
-        ],
-        "temp": false
-      },
-      "§:s3.amazonaws.com": {
-        "capabilities": [
-          "script",
-          "object",
-          "media",
-          "frame",
-          "font",
-          "webgl",
-          "fetch",
-          "other"
-        ],
-        "temp": false
-      },
-      "§:cdn.staticfile.org": {
-        "capabilities": [
-          "script",
-          "object",
-          "media",
-          "frame",
-          "font",
-          "webgl",
-          "fetch",
-          "other"
-        ],
-        "temp": false
-      },
-      "§:unpkg.com": {
-        "capabilities": [
-          "script",
-          "object",
-          "media",
-          "frame",
-          "font",
-          "webgl",
-          "fetch",
-          "other"
-        ],
-        "temp": false
-      }
-    },
-    "temp": [
-      "§:op.gg",
-      "http://0.0.0.0:3000",
-      "http://riot.im",
-      "§:riot.im",
-      "§:github.com"
-    ]
+    "custom": {},
+    "temp": []
   },
   "enforced": true,
   "autoAllowTop": true
