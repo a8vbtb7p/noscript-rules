@@ -40,7 +40,7 @@
     ],
     "untrusted": [],
     "custom": {},
-    "temp": []    ]
+    "temp": []
   },
   "enforced": true,
   "autoAllowTop": true
