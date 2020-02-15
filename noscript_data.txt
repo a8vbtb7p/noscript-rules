@@ -40,9 +40,7 @@
     ],
     "untrusted": [],
     "custom": {},
-    "temp": [
-      "§:ctemplar.com"
-    ]
+    "temp": []    ]
   },
   "enforced": true,
   "autoAllowTop": true
