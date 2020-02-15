@@ -7,7 +7,6 @@
       "media",
       "object",
       "other",
-      "script",
       "webgl"
     ],
     "temp": false
@@ -35,26 +34,15 @@
   },
   "sites": {
     "trusted": [
-      "§:ajax.aspnetcdn.com",
-      "§:a.fsdn.com",
       "§:ajax.googleapis.com",
-      "§:akamaihd.net",
-      "§:apps.bdimg.com",
-      "§:cdn.bootcss.com",
       "§:maxcdn.bootstrapcdn.com",
-      "§:ajax.cloudflare.com",
-      "§:cdnjs.cloudflare.com",
-      "§:cloudfront.net",
-      "§:ssl.fastly.net",
-      "§:code.jquery.com",
-      "§:cdn.jsdelivr.net",
-      "§:s3.amazonaws.com",
-      "§:cdn.staticfile.org",
-      "§:unpkg.com"
+      "§:cdnjs.cloudflare.com"
     ],
     "untrusted": [],
     "custom": {},
-    "temp": []
+    "temp": [
+      "§:ctemplar.com"
+    ]
   },
   "enforced": true,
   "autoAllowTop": true
